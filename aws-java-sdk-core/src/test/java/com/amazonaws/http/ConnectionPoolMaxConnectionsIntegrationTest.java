@@ -20,7 +20,7 @@ import com.amazonaws.Request;
 import com.amazonaws.http.request.EmptyHttpRequest;
 import com.amazonaws.http.response.EmptyAWSResponseHandler;
 import com.amazonaws.http.server.MockServer;
-import org.apache.http.conn.ConnectionPoolTimeoutException;
+import tink.org.apache.http.conn.ConnectionPoolTimeoutException;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;

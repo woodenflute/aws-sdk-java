@@ -97,7 +97,7 @@ public class DelegatingDnsResolverTest {
             }
         };
 
-        org.apache.http.conn.DnsResolver resolver = new DelegatingDnsResolver(delegate);
+        tink.org.apache.http.conn.DnsResolver resolver = new DelegatingDnsResolver(delegate);
 
         resolver.resolve("localhost");
 

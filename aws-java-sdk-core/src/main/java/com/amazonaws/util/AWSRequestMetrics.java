@@ -144,7 +144,7 @@ public class AWSRequestMetrics {
          * connection.
          * <p>
          * Reference: https://hc.apache.org/httpcomponents-core-ga/httpcore
-         * /apidocs/org/apache/http/pool/PoolStats.html
+         * /apidocs/tink.org.apache.http/pool/PoolStats.html
          */
         HttpClientPoolPendingCount,
         RetryPauseTime,

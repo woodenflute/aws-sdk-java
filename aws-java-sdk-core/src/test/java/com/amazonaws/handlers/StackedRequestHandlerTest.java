@@ -23,7 +23,7 @@ import static org.mockito.Mockito.verify;
 
 import java.util.ArrayList;
 
-import org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.methods.HttpGet;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.experimental.runners.Enclosed;

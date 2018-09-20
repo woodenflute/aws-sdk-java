@@ -14,17 +14,17 @@
  */
 package com.amazonaws.http.apache.client.impl;
 
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.conn.ClientConnectionManager;
-import org.apache.http.conn.HttpClientConnectionManager;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.client.ClientProtocolException;
+import tink.org.apache.http.client.HttpClient;
+import tink.org.apache.http.client.ResponseHandler;
+import tink.org.apache.http.client.methods.HttpUriRequest;
+import tink.org.apache.http.conn.ClientConnectionManager;
+import tink.org.apache.http.conn.HttpClientConnectionManager;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.protocol.HttpContext;
 
 import java.io.IOException;
 

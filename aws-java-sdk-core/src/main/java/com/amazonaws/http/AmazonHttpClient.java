@@ -117,17 +117,17 @@ import java.util.Random;
 import java.util.UUID;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpStatus;
-import org.apache.http.StatusLine;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.entity.BufferedHttpEntity;
-import org.apache.http.pool.ConnPoolControl;
-import org.apache.http.pool.PoolStats;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.entity.BufferedHttpEntity;
+import tink.org.apache.http.pool.ConnPoolControl;
+import tink.org.apache.http.pool.PoolStats;
+import tink.org.apache.http.protocol.HttpContext;
 
 @ThreadSafe
 public class AmazonHttpClient {
@@ -403,7 +403,7 @@ public class AmazonHttpClient {
         }
     }
 
-    private static boolean isTemporaryRedirect(org.apache.http.HttpResponse response) {
+    private static boolean isTemporaryRedirect(tink.org.apache.http.HttpResponse response) {
         int status = response.getStatusLine().getStatusCode();
         return status == HttpStatus.SC_TEMPORARY_REDIRECT && response.getHeaders("Location") != null
                && response.getHeaders("Location").length > 0;
@@ -1623,7 +1623,7 @@ public class AmazonHttpClient {
          * @throws IOException If any problems are encountering reading the error response.
          */
         private SdkBaseException handleErrorResponse(HttpRequestBase method,
-                                                           final org.apache.http.HttpResponse apacheHttpResponse,
+                                                           final tink.org.apache.http.HttpResponse apacheHttpResponse,
                                                            final HttpContext context)
                 throws IOException, InterruptedException {
             final StatusLine statusLine = apacheHttpResponse.getStatusLine();
@@ -1726,7 +1726,7 @@ public class AmazonHttpClient {
          * Returns the difference between the client's clock time and the service clock time in unit
          * of seconds.
          */
-        private int parseClockSkewOffset(org.apache.http.HttpResponse response,
+        private int parseClockSkewOffset(tink.org.apache.http.HttpResponse response,
                                          SdkBaseException exception) {
             final long currentTimeMilli = System.currentTimeMillis();
             Date serverDate;
@@ -1797,7 +1797,7 @@ public class AmazonHttpClient {
             long lastBackoffDelay = 0;
             SdkBaseException retriedException; // last retryable exception
             HttpRequestBase apacheRequest;
-            org.apache.http.HttpResponse apacheResponse;
+            tink.org.apache.http.HttpResponse apacheResponse;
             URI redirectedURI;
             AuthRetryParameters authRetryParam;
             /*

@@ -21,18 +21,18 @@ package com.amazonaws.http.response;
 import java.io.IOException;
 import java.util.Locale;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderIterator;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.StatusLine;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderIterator;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.StatusLine;
 import com.amazonaws.annotation.NotThreadSafe;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.params.HttpParams;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.params.HttpParams;
 
 /**
- * A proxy class for {@link org.apache.http.HttpResponse}.
+ * A proxy class for {@link tink.org.apache.http.HttpResponse}.
  */
 @NotThreadSafe
 public class HttpResponseProxy implements CloseableHttpResponse {

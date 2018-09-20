@@ -16,8 +16,8 @@
 package com.amazonaws.http.conn;
 
 import com.amazonaws.http.apache.utils.HttpContextUtils;
-import org.apache.http.conn.socket.PlainConnectionSocketFactory;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.conn.socket.PlainConnectionSocketFactory;
+import tink.org.apache.http.protocol.HttpContext;
 
 import java.io.IOException;
 import java.net.Proxy;

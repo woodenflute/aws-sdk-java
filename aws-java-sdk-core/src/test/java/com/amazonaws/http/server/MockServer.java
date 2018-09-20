@@ -25,12 +25,12 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
 
-import org.apache.http.Header;
-import org.apache.http.HttpResponse;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.entity.BasicHttpEntity;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.message.BasicStatusLine;
 
 import com.amazonaws.util.IOUtils;
 import com.amazonaws.util.StringInputStream;

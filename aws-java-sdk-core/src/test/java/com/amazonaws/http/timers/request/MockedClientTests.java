@@ -35,10 +35,10 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 import com.amazonaws.http.apache.client.impl.ConnectionManagerAwareHttpClient;
 import com.amazonaws.http.response.ErrorDuringUnmarshallingResponseHandler;
-import org.apache.http.client.methods.HttpHead;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.entity.BufferedHttpEntity;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.client.methods.HttpHead;
+import tink.org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.entity.BufferedHttpEntity;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

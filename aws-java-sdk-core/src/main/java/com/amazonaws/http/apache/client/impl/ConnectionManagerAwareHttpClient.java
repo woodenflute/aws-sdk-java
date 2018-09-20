@@ -14,8 +14,8 @@
  */
 package com.amazonaws.http.apache.client.impl;
 
-import org.apache.http.client.HttpClient;
-import org.apache.http.conn.HttpClientConnectionManager;
+import tink.org.apache.http.client.HttpClient;
+import tink.org.apache.http.conn.HttpClientConnectionManager;
 
 /**
  * An extension of Apache's HttpClient that expose the connection manager

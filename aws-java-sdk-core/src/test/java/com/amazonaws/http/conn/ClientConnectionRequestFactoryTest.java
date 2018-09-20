@@ -14,9 +14,9 @@
  */
 package com.amazonaws.http.conn;
 
-import org.apache.http.HttpClientConnection;
-import org.apache.http.conn.ConnectionPoolTimeoutException;
-import org.apache.http.conn.ConnectionRequest;
+import tink.org.apache.http.HttpClientConnection;
+import tink.org.apache.http.conn.ConnectionPoolTimeoutException;
+import tink.org.apache.http.conn.ConnectionRequest;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 

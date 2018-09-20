@@ -14,10 +14,10 @@
  */
 package com.amazonaws.http.conn;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.conn.ConnectionKeepAliveStrategy;
-import org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.conn.ConnectionKeepAliveStrategy;
+import tink.org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * The AWS SDK for Java's implementation of the

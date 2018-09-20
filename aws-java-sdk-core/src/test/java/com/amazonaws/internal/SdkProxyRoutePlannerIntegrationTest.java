@@ -21,10 +21,10 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.UUID;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpUriRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.client.HttpClient;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.methods.HttpUriRequest;
 import org.junit.Assert;
 import org.junit.Test;
 

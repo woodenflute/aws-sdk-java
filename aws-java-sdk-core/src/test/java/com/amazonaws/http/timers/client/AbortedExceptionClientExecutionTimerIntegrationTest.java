@@ -25,8 +25,8 @@ import com.amazonaws.http.apache.client.impl.ConnectionManagerAwareHttpClient;
 import com.amazonaws.http.request.EmptyHttpRequest;
 import com.amazonaws.http.server.MockServer;
 import com.amazonaws.internal.SdkBufferedInputStream;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

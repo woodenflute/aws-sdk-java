@@ -15,7 +15,7 @@
 
 package com.amazonaws.http.conn;
 
-import org.apache.http.conn.socket.ConnectionSocketFactory;
+import tink.org.apache.http.conn.socket.ConnectionSocketFactory;
 
 /**
  * Proxy integration tests for {@link SdkPlainSocketFactory}.

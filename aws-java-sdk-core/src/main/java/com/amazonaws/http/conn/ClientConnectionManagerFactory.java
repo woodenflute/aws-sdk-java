@@ -16,9 +16,9 @@ package com.amazonaws.http.conn;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.conn.ConnectionRequest;
-import org.apache.http.conn.HttpClientConnectionManager;
-import org.apache.http.pool.ConnPoolControl;
+import tink.org.apache.http.conn.ConnectionRequest;
+import tink.org.apache.http.conn.HttpClientConnectionManager;
+import tink.org.apache.http.pool.ConnPoolControl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
