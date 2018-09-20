@@ -22,8 +22,8 @@ import com.amazonaws.metrics.internal.ServiceMetricTypeGuesser;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.entity.InputStreamEntity;
+import tink.org.apache.http.entity.BasicHttpEntity;
+import tink.org.apache.http.entity.InputStreamEntity;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

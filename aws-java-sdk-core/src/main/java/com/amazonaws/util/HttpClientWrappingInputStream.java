@@ -17,7 +17,7 @@ package com.amazonaws.util;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.apache.http.client.HttpClient;
+import tink.org.apache.http.client.HttpClient;
 
 import com.amazonaws.internal.SdkFilterInputStream;
 

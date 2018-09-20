@@ -17,13 +17,13 @@ package com.amazonaws.http.protocol;
 import java.io.IOException;
 import java.net.Socket;
 
-import org.apache.http.HttpClientConnection;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.conn.ManagedHttpClientConnection;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpRequestExecutor;
+import tink.org.apache.http.HttpClientConnection;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.conn.ManagedHttpClientConnection;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpRequestExecutor;
 
 import com.amazonaws.internal.SdkMetricsSocket;
 import com.amazonaws.internal.SdkSSLMetricsSocket;

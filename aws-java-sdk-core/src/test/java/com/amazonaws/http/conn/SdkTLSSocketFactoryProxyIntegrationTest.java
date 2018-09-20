@@ -17,8 +17,8 @@ package com.amazonaws.http.conn;
 
 import com.amazonaws.http.conn.ssl.SdkTLSSocketFactory;
 import com.amazonaws.internal.SdkSSLContext;
-import org.apache.http.conn.socket.ConnectionSocketFactory;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import tink.org.apache.http.conn.socket.ConnectionSocketFactory;
+import tink.org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 
 import java.security.SecureRandom;
 

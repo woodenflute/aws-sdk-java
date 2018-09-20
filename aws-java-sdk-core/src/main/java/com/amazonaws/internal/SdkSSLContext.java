@@ -14,8 +14,8 @@
  */
 package com.amazonaws.internal;
 
-import org.apache.http.conn.ssl.SSLContexts;
-import org.apache.http.conn.ssl.SSLInitializationException;
+import tink.org.apache.http.conn.ssl.SSLContexts;
+import tink.org.apache.http.conn.ssl.SSLInitializationException;
 
 import javax.net.ssl.SSLContext;
 import java.security.KeyManagementException;

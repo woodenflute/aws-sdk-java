@@ -16,7 +16,7 @@ package com.amazonaws.http.timers.client;
 
 import java.util.concurrent.ScheduledFuture;
 
-import org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.client.methods.HttpRequestBase;
 
 import com.amazonaws.annotation.SdkInternalApi;
 import com.amazonaws.util.ValidationUtils;

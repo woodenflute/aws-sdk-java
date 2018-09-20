@@ -14,11 +14,11 @@
  */
 package com.amazonaws.http.conn;
 
-import org.apache.http.HttpClientConnection;
-import org.apache.http.conn.ConnectionRequest;
-import org.apache.http.conn.HttpClientConnectionManager;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpClientConnection;
+import tink.org.apache.http.conn.ConnectionRequest;
+import tink.org.apache.http.conn.HttpClientConnectionManager;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.protocol.HttpContext;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 

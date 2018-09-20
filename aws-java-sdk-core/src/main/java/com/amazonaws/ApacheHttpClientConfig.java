@@ -16,7 +16,7 @@ package com.amazonaws;
 
 import com.amazonaws.annotation.NotThreadSafe;
 
-import org.apache.http.conn.socket.ConnectionSocketFactory;
+import tink.org.apache.http.conn.socket.ConnectionSocketFactory;
 
 /**
  * Used for Apache HTTP client specific custom configurations.

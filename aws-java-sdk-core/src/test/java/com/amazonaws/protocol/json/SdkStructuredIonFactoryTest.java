@@ -23,7 +23,7 @@ import java.io.ByteArrayOutputStream;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.client.methods.HttpRequestBase;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

@@ -18,8 +18,8 @@ import com.amazonaws.annotation.ThreadSafe;
 
 import java.io.IOException;
 
-import org.apache.http.impl.client.DefaultHttpRequestRetryHandler;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.impl.client.DefaultHttpRequestRetryHandler;
+import tink.org.apache.http.protocol.HttpContext;
 
 @ThreadSafe
 public class HttpRequestNoRetryHandler extends DefaultHttpRequestRetryHandler {

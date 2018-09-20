@@ -15,12 +15,12 @@
 package com.amazonaws.http.apache;
 
 import com.amazonaws.Protocol;
-import org.apache.http.HttpException;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.impl.conn.DefaultRoutePlanner;
-import org.apache.http.impl.conn.DefaultSchemePortResolver;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.impl.conn.DefaultRoutePlanner;
+import tink.org.apache.http.impl.conn.DefaultSchemePortResolver;
+import tink.org.apache.http.protocol.HttpContext;
 
 import com.amazonaws.annotation.SdkInternalApi;
 import com.amazonaws.http.apache.client.impl.ApacheHttpClientFactory;

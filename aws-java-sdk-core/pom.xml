@@ -19,7 +19,7 @@
       <version>${commons.logging.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
+      <groupId>tink.org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
       <version>${httpcomponents.httpclient.version}</version>
     </dependency>

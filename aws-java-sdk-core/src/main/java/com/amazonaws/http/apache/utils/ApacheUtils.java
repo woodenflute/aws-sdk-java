@@ -19,27 +19,27 @@ import com.amazonaws.SdkClientException;
 import com.amazonaws.http.HttpResponse;
 import com.amazonaws.http.settings.HttpClientSettings;
 import com.amazonaws.util.FakeIOException;
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpStatus;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.NTCredentials;
-import org.apache.http.client.AuthCache;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.entity.BufferedHttpEntity;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.auth.BasicScheme;
-import org.apache.http.impl.client.BasicAuthCache;
-import org.apache.http.impl.client.BasicCredentialsProvider;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.Credentials;
+import tink.org.apache.http.auth.NTCredentials;
+import tink.org.apache.http.client.AuthCache;
+import tink.org.apache.http.client.CredentialsProvider;
+import tink.org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.entity.BufferedHttpEntity;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.impl.auth.BasicScheme;
+import tink.org.apache.http.impl.client.BasicAuthCache;
+import tink.org.apache.http.impl.client.BasicCredentialsProvider;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.Map;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 
 public class ApacheUtils {
 
@@ -49,7 +49,7 @@ public class ApacheUtils {
      * @param response HTTP response
      * @return True if the request was successful (i.e. has a 2xx status code), false otherwise.
      */
-    public static boolean isRequestSuccessful(org.apache.http.HttpResponse response) {
+    public static boolean isRequestSuccessful(tink.org.apache.http.HttpResponse response) {
         int status = response.getStatusLine().getStatusCode();
         return status / 100 == HttpStatus.SC_OK / 100;
     }
@@ -68,7 +68,7 @@ public class ApacheUtils {
      */
     public static HttpResponse createResponse(Request<?> request,
                                         HttpRequestBase method,
-                                        org.apache.http.HttpResponse apacheHttpResponse,
+                                        tink.org.apache.http.HttpResponse apacheHttpResponse,
                                         HttpContext context) throws IOException {
         HttpResponse httpResponse = new HttpResponse(request, method, context);
 

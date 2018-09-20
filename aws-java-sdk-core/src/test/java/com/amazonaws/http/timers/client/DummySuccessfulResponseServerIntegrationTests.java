@@ -30,7 +30,7 @@ import com.amazonaws.http.response.DummyResponseHandler;
 import com.amazonaws.http.response.UnresponsiveResponseHandler;
 import com.amazonaws.http.server.MockServer;
 import com.amazonaws.http.settings.HttpClientSettings;
-import org.apache.http.pool.ConnPoolControl;
+import tink.org.apache.http.pool.ConnPoolControl;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

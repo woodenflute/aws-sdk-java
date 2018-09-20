@@ -18,7 +18,7 @@ import com.amazonaws.AmazonServiceException;
 import com.amazonaws.SdkBaseException;
 import java.util.HashSet;
 import java.util.Set;
-import org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpStatus;
 
 public class RetryUtils {
 

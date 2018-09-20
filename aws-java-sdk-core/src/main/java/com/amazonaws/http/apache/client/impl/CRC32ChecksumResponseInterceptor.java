@@ -17,13 +17,13 @@ package com.amazonaws.http.apache.client.impl;
 import com.amazonaws.util.CRC32ChecksumCalculatingInputStream;
 import com.amazonaws.util.IOUtils;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpException;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.entity.HttpEntityWrapper;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseInterceptor;
+import tink.org.apache.http.entity.HttpEntityWrapper;
+import tink.org.apache.http.protocol.HttpContext;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -53,10 +53,10 @@ public class CRC32ChecksumResponseInterceptor implements HttpResponseInterceptor
 
             /**
              * It's important to override writeTo. Some versions of Apache HTTP
-             * client use writeTo for {@link org.apache.http.entity.BufferedHttpEntity}
+             * client use writeTo for {@link tink.org.apache.http.entity.BufferedHttpEntity}
              * and the default implementation just delegates to the wrapped entity
              * which completely bypasses our CRC32 calculating input stream. The
-             * {@link org.apache.http.entity.BufferedHttpEntity} is used for the
+             * {@link tink.org.apache.http.entity.BufferedHttpEntity} is used for the
              * request timeout and client execution timeout features.
              *
              * @see <a href="https://github.com/aws/aws-sdk-java/issues/526">Issue #526</a>

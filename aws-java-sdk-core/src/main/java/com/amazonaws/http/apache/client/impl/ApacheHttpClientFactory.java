@@ -26,11 +26,11 @@ import com.amazonaws.http.protocol.SdkHttpRequestExecutor;
 import com.amazonaws.http.settings.HttpClientSettings;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.conn.ConnectionKeepAliveStrategy;
-import org.apache.http.conn.HttpClientConnectionManager;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.HttpResponseInterceptor;
+import tink.org.apache.http.conn.ConnectionKeepAliveStrategy;
+import tink.org.apache.http.conn.HttpClientConnectionManager;
+import tink.org.apache.http.impl.client.HttpClientBuilder;
+import tink.org.apache.http.impl.client.HttpClients;
 
 /**
  * Factory class that builds the apache http client from the settings.

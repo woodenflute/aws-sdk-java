@@ -17,10 +17,10 @@ package com.amazonaws.internal;
 
 import com.amazonaws.Protocol;
 import com.amazonaws.http.apache.SdkProxyRoutePlanner;
-import org.apache.http.HttpException;
-import org.apache.http.HttpHost;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.protocol.HttpClientContext;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
