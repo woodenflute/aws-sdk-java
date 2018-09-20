@@ -27,7 +27,7 @@ maven_jar(
 maven_jar(
     name = "com_fasterxml_jackson_dataformat_jackson_dataformat_cbor",
     artifact = "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.8",
-    sha1 = "d478fb6de45a7c3d2cad07c8ad70c7f0a797a020",
+    sha1 = "a443b2f10c105a0207ccdeb15b131d1350be2952",
 )
 
 maven_jar(
@@ -58,7 +58,7 @@ maven_jar(
 maven_jar(
     name = "software_amazon_ion_ion_java",
     artifact = "software.amazon.ion:ion-java:1.0.2",
-    sha1 = "f7b520c458572890807d143670c9b24f4de90897",
+    sha1 = "ee9dacea7726e495f8352b81c12c23834ffbc564",
 )
 
 maven_jar(

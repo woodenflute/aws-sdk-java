@@ -11,6 +11,8 @@ java_library(
         "@joda_time_joda_time//jar",
         "@software_amazon_ion_ion_java//jar",
         "@se_tink_httpclient//:tink_httpclient",
+        "@se_tink_httpcore//:tink_httpcore",
+
     ],
 )
 java_library(
@@ -23,7 +25,10 @@ java_library(
         "@com_fasterxml_jackson_core_jackson_core//jar",
         "@com_fasterxml_jackson_dataformat_jackson_dataformat_cbor//jar",
         "@com_amazonaws_jmespath_java//jar",
+        "@software_amazon_ion_ion_java//jar",
         "@se_tink_httpclient//:tink_httpclient",
         "@se_tink_httpcore//:tink_httpcore",
+        "@commons_logging_commons_logging//jar",
+
     ],
 )
