@@ -2,13 +2,13 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 git_repository(
     name = "se_tink_httpclient",
-    remote = "git@github.com:ckiosidis/httpcomponents-client.git",
-    commit = "2c1d9d6b6ae2f4cf3ab8213e1ab9b0eca42a1e89"
+    remote = "git@github.com:tink-ab/httpcomponents-client.git",
+    commit = "93d443b291fb574039da443af7d1dafe4b2c04cb"
 )
 
 git_repository(
     name = "se_tink_httpcore",
-    remote = "git@github.com:ckiosidis/httpcomponents-core.git",
+    remote = "git@github.com:tink-ab/httpcomponents-core.git",
     commit = "8b01ab33a06f4367dcd79cbbc262fe9fd40ba295"
 )
 
