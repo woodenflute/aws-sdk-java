@@ -10,8 +10,8 @@ java_library(
         "@commons_logging_commons_logging//jar",
         "@joda_time_joda_time//jar",
         "@software_amazon_ion_ion_java//jar",
-        "@se_tink_httpclient//:tink_httpclient",
-        "@se_tink_httpcore//:tink_httpcore",
+        "@tink_httpclient_4_5_5//:tink_httpclient_4_5_5",
+        "@tink_httpcore_4_4_9//:tink_httpcore_4_4_9",
 
     ],
 )
@@ -26,8 +26,8 @@ java_library(
         "@com_fasterxml_jackson_dataformat_jackson_dataformat_cbor//jar",
         "@com_amazonaws_jmespath_java//jar",
         "@software_amazon_ion_ion_java//jar",
-        "@se_tink_httpclient//:tink_httpclient",
-        "@se_tink_httpcore//:tink_httpcore",
+        "@tink_httpclient_4_5_5//:tink_httpclient_4_5_5",
+        "@tink_httpcore_4_4_9//:tink_httpcore_4_4_9",
         "@commons_logging_commons_logging//jar",
 
     ],
