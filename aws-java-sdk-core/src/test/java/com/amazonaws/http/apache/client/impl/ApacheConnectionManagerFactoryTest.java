@@ -18,7 +18,7 @@ package com.amazonaws.http.apache.client.impl;
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.http.settings.HttpClientSettings;
 
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import tink.org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

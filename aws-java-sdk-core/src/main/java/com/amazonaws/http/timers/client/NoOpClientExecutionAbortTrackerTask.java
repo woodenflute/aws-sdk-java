@@ -14,7 +14,7 @@
  */
 package com.amazonaws.http.timers.client;
 
-import org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.client.methods.HttpRequestBase;
 
 /**
  * Dummy implementation of {@link ClientExecutionAbortTrackerTask} used when the timer is disabled

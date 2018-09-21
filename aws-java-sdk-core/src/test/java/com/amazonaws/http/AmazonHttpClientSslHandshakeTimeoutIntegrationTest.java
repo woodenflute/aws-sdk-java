@@ -22,11 +22,11 @@ import com.amazonaws.http.request.EmptyHttpRequest;
 import com.amazonaws.http.response.NullErrorResponseHandler;
 import com.amazonaws.http.response.NullResponseHandler;
 import com.amazonaws.http.server.MockServer;
-import org.apache.http.HttpHost;
-import org.apache.http.config.SocketConfig;
-import org.apache.http.conn.ConnectTimeoutException;
-import org.apache.http.conn.ManagedHttpClientConnection;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.config.SocketConfig;
+import tink.org.apache.http.conn.ConnectTimeoutException;
+import tink.org.apache.http.conn.ManagedHttpClientConnection;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -62,7 +62,7 @@ public class AmazonHttpClientSslHandshakeTimeoutIntegrationTest extends Unrespon
             /**
              * Http client catches the SocketTimeoutException and throws a
              * ConnectTimeoutException.
-             * {@link org.apache.http.impl.conn.DefaultHttpClientConnectionOperator#connect(ManagedHttpClientConnection, HttpHost, InetSocketAddress, int, SocketConfig, HttpContext)}
+             * {@link tink.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator#connect(ManagedHttpClientConnection, HttpHost, InetSocketAddress, int, SocketConfig, HttpContext)}
              */
             Assert.assertTrue(e.getCause() instanceof ConnectTimeoutException);
 

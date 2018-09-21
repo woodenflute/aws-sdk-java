@@ -37,13 +37,13 @@ import com.amazonaws.http.apache.client.impl.ConnectionManagerAwareHttpClient;
 import com.amazonaws.http.apache.request.impl.ApacheHttpRequestFactory;
 import com.amazonaws.http.request.HttpRequestFactory;
 import com.amazonaws.http.settings.HttpClientSettings;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
+import tink.org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.client.methods.HttpUriRequest;
+import tink.org.apache.http.entity.BasicHttpEntity;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.protocol.HttpContext;
 import org.easymock.Capture;
 import org.easymock.EasyMock;
 import org.easymock.IAnswer;
@@ -350,10 +350,10 @@ public class AmazonHttpClientTest {
                 .expect(httpClient.execute(
                         EasyMock.<HttpUriRequest>anyObject(),
                         EasyMock.<HttpContext>anyObject()))
-                .andAnswer(new IAnswer<org.apache.http.HttpResponse>() {
+                .andAnswer(new IAnswer<tink.org.apache.http.HttpResponse>() {
 
                     @Override
-                    public org.apache.http.HttpResponse answer()
+                    public tink.org.apache.http.HttpResponse answer()
                             throws Throwable {
 
                         HttpEntityEnclosingRequestBase request =

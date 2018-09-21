@@ -19,7 +19,7 @@ import com.amazonaws.annotation.SdkTestInternalApi;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.conn.HttpClientConnectionManager;
+import tink.org.apache.http.conn.HttpClientConnectionManager;
 
 import java.util.ArrayList;
 import java.util.List;

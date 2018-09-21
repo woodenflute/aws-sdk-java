@@ -30,18 +30,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map.Entry;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpHeaders;
-import org.apache.http.client.config.AuthSchemes;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.HttpDelete;
-import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
-import org.apache.http.client.methods.HttpHead;
-import org.apache.http.client.methods.HttpOptions;
-import org.apache.http.client.methods.HttpPatch;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpPut;
-import org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpHeaders;
+import tink.org.apache.http.client.config.AuthSchemes;
+import tink.org.apache.http.client.config.RequestConfig;
+import tink.org.apache.http.client.methods.HttpDelete;
+import tink.org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
+import tink.org.apache.http.client.methods.HttpHead;
+import tink.org.apache.http.client.methods.HttpOptions;
+import tink.org.apache.http.client.methods.HttpPatch;
+import tink.org.apache.http.client.methods.HttpPost;
+import tink.org.apache.http.client.methods.HttpPut;
+import tink.org.apache.http.client.methods.HttpRequestBase;
 
 /**
  * Responsible for creating Apache HttpClient 4 request objects.

@@ -16,7 +16,7 @@
 package com.amazonaws.http.apache.utils;
 
 import com.amazonaws.annotation.SdkInternalApi;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 
 @SdkInternalApi
 public final class HttpContextUtils {

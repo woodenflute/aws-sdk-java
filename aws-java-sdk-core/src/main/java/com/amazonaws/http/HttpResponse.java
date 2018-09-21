@@ -17,8 +17,8 @@ package com.amazonaws.http;
 import com.amazonaws.Request;
 import com.amazonaws.util.CRC32ChecksumCalculatingInputStream;
 
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.client.methods.HttpRequestBase;
+import tink.org.apache.http.protocol.HttpContext;
 
 import java.io.IOException;
 import java.io.InputStream;

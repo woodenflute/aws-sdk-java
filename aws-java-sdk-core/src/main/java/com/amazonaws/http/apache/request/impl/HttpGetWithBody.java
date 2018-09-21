@@ -16,8 +16,8 @@
 package com.amazonaws.http.apache.request.impl;
 
 import java.net.URI;
-import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
-import org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
+import tink.org.apache.http.client.methods.HttpGet;
 
 /**
  * Allows sending a GET request with a request body.

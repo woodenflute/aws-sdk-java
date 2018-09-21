@@ -1902,7 +1902,7 @@ public class ClientConfiguration {
      * Returns the amount of time (in milliseconds) that a connection can be idle in the connection pool before it must be
      * validated to ensure it's still open. This "stale connection check" adds a small bit of overhead to validate the
      * connection. Setting this value to larger values may increase the likelihood that the connection is not usable, potentially
-     * resulting in a {@link org.apache.http.NoHttpResponseException}. Lowering this setting increases the overhead when leasing
+     * resulting in a {@link tink.org.apache.http.NoHttpResponseException}. Lowering this setting increases the overhead when leasing
      * connections from the connection pool. It is recommended to tune this setting based on how long a service allows a
      * connection to be idle before closing.
      *
@@ -1918,7 +1918,7 @@ public class ClientConfiguration {
      * Sets the amount of time (in milliseconds) that a connection can be idle in the connection pool before it must be validated
      * to ensure it's still open. This "stale connection check" adds a small bit of overhead to validate the connection. Setting
      * this value to larger values may increase the likelihood that the connection is not usable, potentially resulting in a
-     * {@link org.apache.http.NoHttpResponseException}. Lowering this setting increases the overhead when leasing connections
+     * {@link tink.org.apache.http.NoHttpResponseException}. Lowering this setting increases the overhead when leasing connections
      * from the connection pool. It is recommended to tune this setting based on how long a service allows a connection to be
      * idle before closing.
      *
@@ -1937,7 +1937,7 @@ public class ClientConfiguration {
      * Sets the amount of time (in milliseconds) that a connection can be idle in the connection pool before it must be validated
      * to ensure it's still open. This "stale connection check" adds a small bit of overhead to validate the connection. Setting
      * this value to larger values may increase the likelihood that the connection is not usable, potentially resulting in a
-     * {@link org.apache.http.NoHttpResponseException}. Lowering this setting increases the overhead when leasing connections
+     * {@link tink.org.apache.http.NoHttpResponseException}. Lowering this setting increases the overhead when leasing connections
      * from the connection pool. It is recommended to tune this setting based on how long a service allows a connection to be
      * idle before closing.
      *

@@ -20,17 +20,17 @@ import com.amazonaws.Request;
 import com.amazonaws.SdkClientException;
 import com.amazonaws.annotation.SdkProtectedApi;
 
-import org.apache.http.HttpHost;
-import org.apache.http.HttpResponse;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.NTCredentials;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.conn.params.ConnRoutePNames;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-import org.apache.http.params.HttpProtocolParams;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.NTCredentials;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.conn.params.ConnRoutePNames;
+import tink.org.apache.http.impl.client.DefaultHttpClient;
+import tink.org.apache.http.params.BasicHttpParams;
+import tink.org.apache.http.params.HttpConnectionParams;
+import tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.params.HttpProtocolParams;
 
 import java.io.IOException;
 import java.io.InputStream;
